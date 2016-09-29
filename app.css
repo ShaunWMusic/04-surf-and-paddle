@@ -24,5 +24,33 @@ a {
 }
 
 .section-hero {
+background: url("img/img_hero.jpeg") center center no-repeat;
+background-size: cover;
+width: 100%;
+height: 30rem;
+}
 
+.top-nav {
+}
+
+.nav-links {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.nav-link-items {
+  margin-right: 0 2rem;
+}
+
+.jumbotron-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.container__nav {
+  display: flex;
+  justify-content: space-between;
 }
