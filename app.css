@@ -31,16 +31,15 @@ height: 30rem;
 }
 
 .top-nav {
+  margin: 1rem 2rem;
 }
 
-.nav-links {
+.nav_links {
   display: flex;
-  justify-content: center;
-  align-items: center;
 }
 
-.nav-link-items {
-  margin-right: 0 2rem;
+.nav_link-items {
+  margin: 0 2rem;
 }
 
 .jumbotron-container {
@@ -48,6 +47,10 @@ height: 30rem;
   justify-content: center;
   align-items: center;
   flex-direction: column;
+}
+
+.jumbo-text {
+  font-size: 3rem;
 }
 
 .container__nav {
