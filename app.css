@@ -32,6 +32,11 @@ max-width: 100%;
 min-height: 47rem;
 }
 
+.section-body {
+  display: flex;
+  justify-content: space-around;;
+}
+
 .top-nav {
   margin: 1rem 2rem;
 }
@@ -114,4 +119,9 @@ min-height: 47rem;
 
 .date-time {
   text-decoration: underline;
+}
+
+.container__post {
+  margin: 1rem;
+  max-width: 35%;
 }
