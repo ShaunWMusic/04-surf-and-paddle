@@ -40,7 +40,8 @@ font-family: "Amatic SC", sans-serif;
 
 .section-body {
   display: flex;
-  justify-content: space-around;;
+  justify-content: space-around;
+  flex-wrap: wrap;
 }
 
 .top-nav {
@@ -113,6 +114,14 @@ font-family: "Amatic SC", sans-serif;
 .author {
   display: flex;
   justify-content: flex-start;
+}
+
+.btn {
+  color: grey;
+}
+
+.btn__selected {
+  color: #a66e0e;
 }
 
 .sidebar {
