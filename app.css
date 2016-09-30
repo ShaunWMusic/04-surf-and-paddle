@@ -12,6 +12,7 @@ body {
 }
 
 ul {
+  padding-left: 0;
   list-style: none;
 }
 
@@ -27,8 +28,8 @@ a {
 .section-hero {
 background: url("img/img_hero.jpeg") center center no-repeat;
 background-size: cover;
-width: 100%;
-height: 50rem;
+max-width: 100%;
+min-height: 29rem;
 }
 
 .top-nav {
@@ -37,7 +38,7 @@ height: 50rem;
 
 .nav_links {
   display: flex;
-  margin: 1rem 2rem;
+  margin: 1rem;
 }
 
 .nav_link-items {
@@ -49,10 +50,12 @@ height: 50rem;
   justify-content: center;
   align-items: center;
   flex-direction: column;
+  margin: auto;
 }
 
 .jumbo-text {
   font-size: 4rem;
+  text-align: center;
 }
 
 .small-text {
@@ -63,6 +66,9 @@ height: 50rem;
 .container__nav {
   display: flex;
   justify-content: space-between;
+  max-width: 65rem;
+  margin: auto;
+  padding: -1rem;
 }
 
 .sidebar {
@@ -91,4 +97,9 @@ height: 50rem;
 
 .social__media-list {
   display: flex;
+}
+
+.ad-link {
+  display: flex;
+  justify-content: flex-end;
 }
