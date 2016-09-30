@@ -8,6 +8,7 @@ html {
 
 body {
   margin: 0;
+  font-family: "Amatic SC", sans-serif;
 }
 
 ul {
@@ -27,7 +28,7 @@ a {
 background: url("img/img_hero.jpeg") center center no-repeat;
 background-size: cover;
 width: 100%;
-height: 30rem;
+height: 35rem;
 }
 
 .top-nav {
@@ -36,10 +37,11 @@ height: 30rem;
 
 .nav_links {
   display: flex;
+  margin: 1rem 2rem;
 }
 
 .nav_link-items {
-  margin: 0 2rem;
+  margin: 0 1rem;
 }
 
 .jumbotron-container {
@@ -50,7 +52,12 @@ height: 30rem;
 }
 
 .jumbo-text {
-  font-size: 3rem;
+  font-size: 4rem;
+}
+
+.small-text {
+  font-size: 1rem;
+  margin: -3rem 0rem 4rem 0rem;
 }
 
 .container__nav {
