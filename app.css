@@ -32,6 +32,11 @@ max-width: 100%;
 min-height: 47rem;
 }
 
+.container__section-body {
+  margin: auto;
+  max-width: 60%;
+}
+
 .section-body {
   display: flex;
   justify-content: space-around;;
@@ -116,6 +121,10 @@ min-height: 47rem;
   font-size: 3rem;
 }
 
+.author-photo__post {
+  border-radius: 100%;
+  max-width:  50%;
+}
 
 .date-time {
   text-decoration: underline;
