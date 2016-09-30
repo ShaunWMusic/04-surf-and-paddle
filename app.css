@@ -87,7 +87,7 @@ font-family: "Amatic SC", sans-serif;
 }
 
 .container__sidebar {
-  width: 15%;
+  width: 26%;
   margin: 1rem;
 }
 
@@ -113,6 +113,10 @@ font-family: "Amatic SC", sans-serif;
   font-size: .5rem;
 }
 
+.image__sidebar {
+  font-size: .6rem;
+}
+
 .ad-link {
   display: flex;
   justify-content: flex-end;
@@ -127,6 +131,8 @@ font-family: "Amatic SC", sans-serif;
 .author-photo__post {
   border-radius: 100%;
   max-width:  50%;
+  height: 6vh;
+  margin: 1rem;
 }
 
 .date-time {
@@ -135,7 +141,7 @@ font-family: "Amatic SC", sans-serif;
 
 .container__post {
   margin: 1rem;
-  max-width: 47%;
+  max-width: 53%;
 }
 
 .container__author {
