@@ -66,21 +66,29 @@ height: 50rem;
 }
 
 .sidebar {
-  width: 15%;
-}
-
-.container__sidebar {
-  margin: 1rem;
   text-align: center;
 }
 
+.container__sidebar {
+  width: 15%;
+  margin: 1rem;
+}
+
+.author-photo {
+  margin: 1rem 0 0 0;
+  border-radius: 100%;
+}
+
+.author-name {
+  font-size: 2rem;
+  margin: 0;
+}
+
 .social__media-item {
-  margin 2rem;
   margin: 0 0 0 .5rem;
+  color: #3e4147;
 }
 
 .social__media-list {
   display: flex;
-  justify-content: center;
-  align-items: center;
 }
