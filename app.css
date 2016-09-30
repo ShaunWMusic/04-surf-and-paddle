@@ -29,7 +29,7 @@ a {
 background: url("img/img_hero.jpeg") center center no-repeat;
 background-size: cover;
 max-width: 100%;
-min-height: 29rem;
+min-height: 47rem;
 }
 
 .top-nav {
@@ -97,9 +97,21 @@ min-height: 29rem;
 
 .social__media-list {
   display: flex;
+  justify-content: center;
+  margin-bottom: 3rem;
 }
 
 .ad-link {
   display: flex;
   justify-content: flex-end;
+  text-decoration: underline;
+}
+
+.post-title {
+  font-size: 3rem;
+}
+
+
+.date-time {
+  text-decoration: underline;
 }
