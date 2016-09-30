@@ -8,7 +8,7 @@ html {
 
 body {
   margin: 0;
-  font-family: "Amatic SC", sans-serif;
+  font-family: "Slabo 27px", sans-serif;
 }
 
 ul {
@@ -30,6 +30,7 @@ background: url("img/img_hero.jpeg") center center no-repeat;
 background-size: cover;
 max-width: 100%;
 min-height: 47rem;
+font-family: "Amatic SC", sans-serif;
 }
 
 .container__section-body {
@@ -96,7 +97,7 @@ min-height: 47rem;
 }
 
 .author-name {
-  font-size: 2rem;
+  font-size: 1rem;
   margin: 0;
 }
 
@@ -109,6 +110,7 @@ min-height: 47rem;
   display: flex;
   justify-content: center;
   margin-bottom: 3rem;
+  font-size: .5rem;
 }
 
 .ad-link {
@@ -118,7 +120,8 @@ min-height: 47rem;
 }
 
 .post-title {
-  font-size: 3rem;
+  font-size: 2rem;
+  text-align: center;
 }
 
 .author-photo__post {
@@ -132,5 +135,14 @@ min-height: 47rem;
 
 .container__post {
   margin: 1rem;
-  max-width: 35%;
+  max-width: 47%;
+}
+
+.container__author {
+  margin: 1rem;
+}
+
+.author {
+  display: flex;
+  justify-content: flex-start;
 }
