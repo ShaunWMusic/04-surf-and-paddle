@@ -28,7 +28,7 @@ a {
 background: url("img/img_hero.jpeg") center center no-repeat;
 background-size: cover;
 width: 100%;
-height: 35rem;
+height: 50rem;
 }
 
 .top-nav {
@@ -63,4 +63,24 @@ height: 35rem;
 .container__nav {
   display: flex;
   justify-content: space-between;
+}
+
+.sidebar {
+  width: 15%;
+}
+
+.container__sidebar {
+  margin: 1rem;
+  text-align: center;
+}
+
+.social__media-item {
+  margin 2rem;
+  margin: 0 0 0 .5rem;
+}
+
+.social__media-list {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
