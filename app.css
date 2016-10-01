@@ -173,3 +173,7 @@ font-family: "Amatic SC", sans-serif;
 .sidebar-content {
   text-align: left;
 }
+
+.container__section-footer {
+  margin: 1rem;
+}
