@@ -189,17 +189,38 @@ font-family: "Amatic SC", sans-serif;
   margin: 1rem;
   flex-wrap: wrap;
   flex-grow: 1;
-  position: relative;
 }
 
 .footer-img {
   width: calc(100% * 1 / 4 - 1rem - 1rem);
   margin: 0;
   min-width: 20rem;
+  position: relative;
+  bottom: 2rem;
+  left: 2rem;
 }
 
 .img-header {
   font-size: 1.5rem;
   position: absolute;
+  bottom: 4rem;
+  left: 1rem;
+  opacity: 0.3;
 
+}
+
+.img--1 {
+  bottom: 6rem;
+}
+
+.container__logo {
+  display: flex;
+  justify-content: center;
+  margin: 1rem;
+}
+
+.nav__list {
+  display: flex;
+  justify-content: space-around;
+  width: 25%;
 }
