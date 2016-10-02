@@ -214,13 +214,24 @@ font-family: "Amatic SC", sans-serif;
 }
 
 .container__logo {
+  margin: auto;
+  width: 56%;
+}
+
+.logo {
   display: flex;
-  justify-content: center;
-  margin: 1rem;
+  justify-content: space-around;
+}
+
+.logo-pic {
+  max-height: 13vh;
+}
+
+.Copyright {
+  width: 91%;
 }
 
 .nav__list {
   display: flex;
-  justify-content: space-around;
-  width: 25%;
+  width: 47%;
 }
