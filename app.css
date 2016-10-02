@@ -186,6 +186,13 @@ font-family: "Amatic SC", sans-serif;
 .container__footer-img {
   display: flex;
   justify-content: center;
+  margin: 1rem;
+  flex-wrap: wrap;
   flex-grow: 1;
+}
 
+.footer-img {
+  width: calc(100% * 1 / 4 - 1rem - 1rem);
+  margin: 0;
+  min-width: 20rem;
 }
