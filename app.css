@@ -177,3 +177,8 @@ font-family: "Amatic SC", sans-serif;
 .container__section-footer {
   margin: 1rem;
 }
+
+.footer-title {
+  font-size: 3rem;
+  text-align: center;
+}
