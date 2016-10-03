@@ -216,6 +216,7 @@ font-family: "Amatic SC", sans-serif;
 .container__logo {
   margin: auto;
   width: 56%;
+  flex-wrap: wrap;
 }
 
 .logo {
@@ -228,10 +229,15 @@ font-family: "Amatic SC", sans-serif;
 }
 
 .Copyright {
-  width: 91%;
+  width: calc( 100% / 2 - 1rem - 1rem );
+  min-width: 20rem;
+  flex-grow: 1;
+  text-align: center;
 }
 
 .nav__list {
   display: flex;
-  width: 47%;
+  width: calc( 100% / 2 - 1rem - 1rem);
+  min-width: 20rem;
+
 }
