@@ -29,7 +29,7 @@ a {
 background: url("img/img_hero.jpeg") center center no-repeat;
 background-size: cover;
 max-width: 100%;
-min-height: 47rem;
+min-height: 50rem;
 font-family: "Amatic SC", sans-serif;
 }
 
@@ -42,6 +42,7 @@ font-family: "Amatic SC", sans-serif;
   display: flex;
   justify-content: space-around;
   flex-wrap: wrap;
+  min-height: 48rem;
 }
 
 .top-nav {
@@ -138,6 +139,11 @@ font-family: "Amatic SC", sans-serif;
   flex-grow: 1;
 }
 
+.divider {
+  width: 79rem;
+  margin: 2rem auto;
+}
+
 .author-photo {
   margin: 1rem 0 0 0;
   border-radius: 100%;
@@ -188,6 +194,7 @@ font-family: "Amatic SC", sans-serif;
   justify-content: center;
   margin: 1rem;
   flex-wrap: wrap;
+  padding: 0 5rem 0 0;
   flex-grow: 1;
 }
 
@@ -222,6 +229,7 @@ font-family: "Amatic SC", sans-serif;
 .logo {
   display: flex;
   justify-content: space-around;
+  flex-wrap: wrap;
 }
 
 .logo-pic {
