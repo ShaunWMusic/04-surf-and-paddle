@@ -220,6 +220,7 @@ font-family: "Amatic SC", sans-serif;
   margin: auto;
   flex-wrap: wrap;
   padding: 1rem 1rem 1rem 3rem;
+  max-width: 65rem;
 }
 
 .logo {
