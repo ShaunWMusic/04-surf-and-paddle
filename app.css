@@ -28,14 +28,13 @@ a {
 .section-hero {
 background: url("img/img_hero.jpeg") center center no-repeat;
 background-size: cover;
-max-width: 100%;
 min-height: 50rem;
 font-family: "Amatic SC", sans-serif;
 }
 
 .container__section-body {
   margin: auto;
-  max-width: 60%;
+  max-width: 65rem;
 }
 
 .section-body {
@@ -92,7 +91,6 @@ font-family: "Amatic SC", sans-serif;
 
 .author-photo__post {
   border-radius: 100%;
-  max-width:  50%;
   height: 6vh;
   margin: 1rem;
 }
@@ -139,10 +137,7 @@ font-family: "Amatic SC", sans-serif;
   flex-grow: 1;
 }
 
-.divider {
-  width: 73%;
-  margin: 2rem auto;
-}
+
 
 .author-photo {
   margin: 1rem 0 0 0;
@@ -187,6 +182,8 @@ font-family: "Amatic SC", sans-serif;
 .footer-title {
   font-size: 3rem;
   text-align: center;
+  border-top: 0.1rem solid;
+  padding: 3rem;
 }
 
 .container__footer-img {
