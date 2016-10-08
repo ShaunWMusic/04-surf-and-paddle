@@ -204,6 +204,8 @@ font-family: "Amatic SC", sans-serif;
 .footer-img img {
   display: block;
   width: 100%;
+  height: 18rem;
+  object-fit: cover;
 }
 
 .img-header {
@@ -219,13 +221,15 @@ font-family: "Amatic SC", sans-serif;
 .container__logo {
   margin: auto;
   flex-wrap: wrap;
-  padding: 1rem 1rem 1rem 3rem;
+  padding: 0 0rem 0rem 1rem;
   max-width: 65rem;
-  background: #aeb6c2;
 }
 
 .logo {
   display: flex;
+  background: #aeb6c2;
+  padding: 1rem;
+  width: 100%;
 }
 
 .logo-pic {
