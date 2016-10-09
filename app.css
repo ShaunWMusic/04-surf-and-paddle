@@ -219,17 +219,15 @@ font-family: "Amatic SC", sans-serif;
 }
 
 .container__logo {
+  display: flex;
   margin: auto;
-  flex-wrap: wrap;
-  padding: 0 0rem 0rem 1rem;
   max-width: 65rem;
-  background: #aeb6c2;
 }
 
 .logo {
-  display: flex;
   padding: 1rem;
   width: 100%;
+  background: #aeb6c2;
 }
 
 .logo-pic {
